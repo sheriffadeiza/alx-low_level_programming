@@ -11,7 +11,7 @@ for (x = 0; x <= 9; x++)
 for (y = 0; y <= 9; y++)
 {
 z = x * y;
-if (z > 9);
+if (z > 9)
 {
 u = z % 10;
 d = (z - u) / 10;
@@ -31,5 +31,6 @@ _putchar(32);
 _putchar(z + '0');
 }
 }
-putchar('\n');
+_putchar('\n');
+}
 }
